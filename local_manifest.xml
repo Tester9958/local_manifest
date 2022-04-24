@@ -2,12 +2,12 @@
 
 <manifest>
         
-        <remote name="havoc"
+        <remote name="hd"
         fetch="https://github.com/Havoc-Devices" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="havoc" revision="eleven" />
-        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="havoc" revision="eleven" />
-        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="havoc" revision="eleven" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="hd" revision="eleven" />
+        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="hd" revision="eleven" />
+        <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="hd" revision="eleven" />
 
 </manifest>
