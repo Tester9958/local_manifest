@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+        
+        <remote name="profile"
+        fetch="https://github.com/Tester9958" />
+        
 
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
