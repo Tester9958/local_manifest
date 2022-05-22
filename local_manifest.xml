@@ -13,7 +13,7 @@
 
         <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="gt" revision="lineage-18.1"/>
         <project path="platform/frameworks/base" name="platform_frameworks_base" remote="cl" revision="12.1.x"/>
-        <project path="platform/vendor/aosp" name="platform_vendor_aosp " remote="cl" revision="12.1.x"/>
+        <project path="platform/vendor/aosp" name="platform_vendor_aosp" remote="cl" revision="12.1.x"/>
         <project path="platform/packages/apps/Settings" name="platform_packages_apps_Settings" remote="cl" revision="12.1.x"/>
 
         <!-- Sync trees -->
