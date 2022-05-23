@@ -10,19 +10,21 @@
         
         <remote name="dumpyardclhex"
         fetch="https://github.com/clhexdumpyard" />
-
+         
+        <!-- Remove Project -->
         <remove-project name="platform_packages_apps_Launcher3" />
 	<remove-project name="platform_frameworks_base" />
 	<remove-project name="platform_packages_apps_Settings" />
 	<remove-project name="platform_vendor_aosp" />
 
-
+        <!-- replacements -->
         <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" revision="12.1.x" remote="dumpyardclhex" />	
 	<project path="frameworks/base" name="platform_frameworks_base" revision="12.1.x" remote="dumpyardclhex" />	
 	<project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="12.1.x" remote="dumpyardclhex" />	
 	<project path="vendor/aosp" name="platform_vendor_aosp" revision="12.1.x" remote="dumpyardclhex" />
-
         <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="gt" revision="lineage-18.1"/>
+        
+        <!-- packages -->
         <project path="android/packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="profile" revision="arrow-12.1"/>
 
         <!-- Sync trees -->
